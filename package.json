@@ -1,0 +1,25 @@
+{
+  "name": "watt-remix",
+  "private": true,
+  "scripts": {
+    "dev": "wattpm dev",
+    "build": "wattpm build",
+    "start": "wattpm start"
+  },
+  "dependencies": {
+    "@fastify/postgres": "^6.0.2",
+    "@fastify/swagger": "^9.4.2",
+    "@fastify/swagger-ui": "^5.2.1",
+    "@platformatic/composer": "^2.36.2",
+    "@platformatic/db": "^2.36.2",
+    "@platformatic/node": "^2.36.2",
+    "@platformatic/runtime": "^2.36.2",
+    "fastify": "^5.2.1",
+    "pg": "^8.13.1",
+    "wattpm": "^2.36.2"
+  },
+  "workspaces": [
+    "web/*",
+    "external/*"
+  ]
+}

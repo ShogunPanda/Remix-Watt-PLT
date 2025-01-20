@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.platformatic.dev/@platformatic/composer/2.36.2.json",
+  "composer": {
+    "services": [
+      {
+        "id": "postgres-db",
+        "openapi": {
+          "url": "/documentation/json",
+          "prefix": "/postgres-db"
+        }
+      },
+      {
+        "id": "frontend"
+      }
+    ],
+    "refreshTimeout": 1000
+  },
+  "watch": true
+}
