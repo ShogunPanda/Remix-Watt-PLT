@@ -11,6 +11,9 @@ import { createReadableStreamFromReadable } from "@remix-run/node";
 import { RemixServer } from "@remix-run/react";
 import { isbot } from "isbot";
 import { renderToPipeableStream } from "react-dom/server";
+import { setBaseUrl } from "./remix-client/remix-client.mjs";
+
+setBaseUrl("http://composer.plt.local");
 
 const ABORT_DELAY = 5_000;
 

@@ -17,6 +17,7 @@
     "isbot": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "@platformatic/globals": "^2.36.2",
     "@platformatic/remix": "^2.36.2"
   },
   "devDependencies": {
